@@ -1,12 +1,11 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+draw-k0v
+
+@static
 
 @http
 get /
+get /page/:id
 
 @tables
 data
